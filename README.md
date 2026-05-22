@@ -8,6 +8,7 @@ JDK: 17 or higher
 Internet: Required for cloud database connectivity
 
 JavaFX Portal Features
+
 Multi-View UI: Seamless navigation between Login, Dashboard, and Registration screens.
 
 Live Cloud Sync: Real-time data storage and retrieval via Supabase (PostgreSQL).
