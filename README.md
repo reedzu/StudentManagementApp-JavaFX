@@ -1,4 +1,4 @@
-Student Management Portal
+Student Management Portal (GUI)
 
 A JavaFX desktop application with real-time cloud integration via Supabase.
 
