@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.studentmanager.studentmanagementgui.LoginController">
+    <padding>
+        <Insets bottom="40.0" left="40.0" right="40.0" top="40.0"/>
+    </padding>
+
+    <Label text="PUP Portal">
+        <font>
+            <Font name="System Bold" size="28.0"/>
+        </font>
+    </Label>
+    <Label text="Authorized Personnel Only" textFill="grey"/>
+
+    <VBox alignment="CENTER" spacing="10.0" maxWidth="250">
+        <TextField fx:id="usernameField" promptText="Username" />
+        <PasswordField fx:id="passwordField" promptText="Password" />
+    </VBox>
+
+    <Label fx:id="errorLabel" textFill="red"/>
+
+    <Button text="Secure Login" onAction="#onLoginClick" style="-fx-background-color: #800000; -fx-text-fill: white; -fx-font-weight: bold; -fx-pref-width: 250; -fx-pref-height: 35;"/>
+
+</VBox>
